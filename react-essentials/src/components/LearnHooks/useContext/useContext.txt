@@ -1,0 +1,11 @@
+in app.js
+first export const Context = createContext()
+create variables using useState
+and wrap the component to send props with <Context.Provider></Context.Provider>
+and in props send values <Context.Provider value={{ name, age, setName, setAge }}>
+these values always must be state variables because other variables cannot be changed
+we can create multiple Context and in any component
+
+in Parent Component
+simply invoke useContext hook
+and you can use props as an object

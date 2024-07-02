@@ -1,0 +1,2 @@
+we cannot store objects into local storage so we should convert the object into string and then store it into localStorage (JSON.stringify)
+to access the object from local storage simply use JSON.parse which removes string wrapper from the object that was JSON.stringify
